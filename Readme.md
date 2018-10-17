@@ -1,0 +1,1 @@
+## Exporting Component to be used as in package as well as React application

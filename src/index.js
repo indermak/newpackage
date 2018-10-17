@@ -1,18 +1,12 @@
-import React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-const ReactColorSquare = props => {
-    const { width, height, color, text } = props;
-    return (
-        <div
-            style={{
-                width: width || 100,
-                height: height || 100,
-                backgroundColor: color || "blue"
-            }}
-        >
-            {text}
-        </div>
-    );
-};
+ReactDOM.render(<App />, document.getElementById('root'));
 
-export default ReactColorSquare;
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.unregister();
