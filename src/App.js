@@ -13,6 +13,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <p>Latest changes</p>
           <div>{`${a}`} : &nbsp; {`${b}`}</div> 
           <a
             className="App-link"
