@@ -14,6 +14,7 @@ class App extends Component {
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <p>Latest changes</p>
+          <h1>Highlited changes</h1>
           <div>{`${a}`} : &nbsp; {`${b}`}</div> 
           <a
             className="App-link"
