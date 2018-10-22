@@ -1,6 +1,6 @@
 {
   "name": "indermak",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "build/index.js",
   "repository": {
@@ -12,7 +12,9 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "webpack --watch",
+    "parcel": "parcel ./src/App.js"
   },
   "author": {
     "name": "indermak"
@@ -76,6 +78,8 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "env": "0.0.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "parcel-bundler": "^1.10.3",
     "webpack-cli": "^3.0.4",
     "webpack-dev-server": "^3.1.9"
   },
